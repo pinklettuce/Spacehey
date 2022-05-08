@@ -1,0 +1,73 @@
+<style>.profile {
+  background-color: black;
+}
+.profile-pic{
+    content: url("https://i.ibb.co/mt46szF/pfp.gif");
+}
+.online{
+    visibility: hidden;
+}
+@keyframes blinking{
+    0%{
+        opacity: 0;
+    }
+   50%{
+       opacity: 0.7;
+       
+   }
+   100%{
+       opacity: 0;
+   }
+ }
+.online:after{
+    font-weight: bold;
+    font-size: 75%;
+    visibility:visible;
+    color:#ff0000;
+    animation: blinking 1.5s linear infinite;;
+    content:"Barely Alive...";
+}
+button {
+    background-color:#000000;
+    color:#ff00d7;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #ff00d7;
+    color: #000000;
+}
+input[type="text"] {
+    background: #ff00d7 !important;
+}
+main,nav .top, nav .center, nav .right, nav .links a,nav .links,.details-table td:first-child,.details-table td,.profile .contact .heading, .profile .table-section .heading, .home-actions .heading,nav, footer, .profile .contact{
+    color:#ff00d7;
+    text-shadow: #0000ff;
+    background-color: black;
+}
+body{
+    background: url(https://c.tenor.com/18SBZln9s3AAAAAC/black-space-outer-space.gif);
+	padding: 1em;
+	line-height: 1.4em;
+	background-color: black;
+}
+ff00d7
+h1, h2, h3, h4,.profile .blurbs .section h4,.links{
+	text-shadow: 1px 1px 1px #0000ff;
+	color: #ff00ff;
+}
+.profile .blurbs .heading,.profile .friends p, .profile .friends .heading,.profile .blurbs .section p,.blog-entry .comments p, .bulletin .comments p,p,a,b{
+    background-color:#000000;
+    color:#ff00d7;
+}
+.profile .contact, .profile .url-info, .profile .table-section, .home-actions {
+    border: black;
+}
+a:hover{
+	text-shadow: 1px 1px 1px #0000ff;
+}
+.comments-table td,.comment-replies,.comments-table td:first-child, .music-table td:first-child,.inner,table.comments-table{
+    background:#000000;
+    border-color:#000000;
+    border:0px;
+}
+</style>
